@@ -152,12 +152,18 @@ background-color: transparent;
 }
 #phone-no{
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr 1fr;
 }
 #get-started{
     width: 153px;
     padding: 17px 25px;
+    margin-right: 50px;
     text-align: center;
     border-radius: 50px;
     background-color: black;
+}
+.cross{
+    position: relative;
+    right: 150px;
+
 }
