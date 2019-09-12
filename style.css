@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+/* font-family: 'Noto Sans', sans-serif; */
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+}
+li, button{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #f5f5f7;;
+}
+header {
+    display: flex;
+    background-color: #f5f5f7;
+    align-items: center;
+    padding: 8px 10%;
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    color: gray;
+
+}
+img{
+    margin-top: -12px;
+    width: 250px;
+}
+#personal  {
+    font-weight: bold;
+}
+#pb{
+
+    margin-right: 60px;
+}
+#middle{
+    margin-right:70px;
+}
+#lj{
+    margin-left: 40px;
+    
+}
+#join{
+    display:inline-block;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #e7e8eb;
+}
+#personalb{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #cdced7;
+
+}
+#businessb{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #e1e1e7;
+    
+}
+.logo{
+    cursor: pointer;
+}
+.nav__links{
+    list-style: none;
+    display: flex;
+    padding-bottom: 7px;
+}
+.nav__links li{
+    display: inline-block;
+
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+    
+}
+.nav__links li a:hover {
+    color:  #383859;
+    
+}
+button{
+    padding: 9px 25px;
+    background-color:   #383859;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+button:hover{
+    color:#72738e ;
+}
+
+/* media query sample */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: green;
+    padding: 0px;
+}
+
+.grid-container > div {
+background-color: blue;
+text-align: justify;
+padding: 200px;
+
+}
+
+
+/* .drive p:nth-child(1){
+    font-size: 50px;
+}
+
+.drive input{
+border: none;
+background-color: transparent;
+
+}
+.drive input:focus{
+ outline: none   
+} */
+.drive{
+    padding: 150px;
+}
+
+#just-drive{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#all-inc{
+    margin-bottom: 30px;
+}
+#phone-no input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    width: 250px;
+    margin-top: 30px;
+
+}
+#phone-no input:focus{
+    outline: none;     
+}
+#phone-no{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+#get-started{
+    width: 153px;
+    padding: 17px 25px;
+    margin-right: 50px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: black;
+}
+.cross{
+    position: relative;
+    right: 150px;
+
+}
